@@ -1,0 +1,67 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(174, 77, 152);
+}
+
+.logo {
+    position: absolute;
+    background-image: url(../assets/imgs/log.png);
+    background-size: cover;
+    height: 270px;
+    width: 280px;
+    margin-left: 15%;
+    margin-top: 100px;
+}
+
+.app {
+    position: absolute;
+    margin-top: 380px;
+    margin-left: 70px;
+}
+
+.app h1 {
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.form {
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 48px;
+}
+
+.container {
+    position: absolute;
+    width: 500px;
+    margin-top: 250px;
+    background-color: rgb(174, 77, 152);
+}
+
+.img-fluid {
+    margin-top: 80px;
+}
+
+.t1 {
+    margin-left: 125px;
+    margin-top: 190px;
+}
+
+.navbar {
+    background-color: rgb(240, 87, 202);
+}
+
+.button {
+    margin-top: 40px;
+    position: absolute;
+    background-image: url(../assets/imgs/arrow.png);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.sign {
+    background-color: rgb(215, 56, 173);
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Awesome Capacitor App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+
+    <script type="module"
+        src="https://unpkg.com/@ionic/pwa-elements@latest/dist/ionicpwaelements/ionicpwaelements.esm.js"></script>
+    <script nomodule
+        src="https://unpkg.com/@ionic/pwa-elements@latest/dist/ionicpwaelements/ionicpwaelements.js"></script>
+
+    <link rel="icon" type="image/x-icon" href="./assets/icon/favicon.ico" />
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="stylesheet" href="./css/form.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <script src="./js/main.js" type="module"></script>
+    <script src="./js/auth/reg.js" type="module"></script>
+
+    <meta name="theme-color" content="#31d53d" />
+</head>
+
+<body>
+    <div class="top">
+        <nav class="navbar navbar-dark fixed-top mb-5">
+            <div class="container-fluid justify-content-center">
+                <a class="navbar-brand fs-3 text-center text-black ms-3 mt-3" href="#"></a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container mt-5">
+        <a href="#" class="d-flex justify-content-center">
+            <img src="assets/imgs/Fuentes.png" class="img-fluid" alt="Logo">
+        </a>
+        <h2 class="t1 text-center">Signup Now</h2>
+        <form class="user_form mt-1" id="user_form">
+
+            <div class="alert alert-success d-none" role="alert"></div>
+            <div class="alert alert-danger d-none" role="alert"></div>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text"><i class="fa fa-user"></i></span>
+                <input type="text" class="form-control" name="fname" id="fname" placeholder="First-name" />
+            </div>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text"><i class="fa fa-user"></i></span>
+                <input type="text" class="form-control" name="lname" id="lname" placeholder="Last-name" />
+            </div>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text"><i class='fa fa-envelope'></i></span>
+                <input type="email" class="form-control" name="email" id="email" placeholder="Email" />
+            </div>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text"><i class="fa fa-lock"></i></span>
+                <input type="password" class="form-control" name="password" id="password" placeholder="Password" />
+            </div>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text"><i class="fa fa-lock"></i></span>
+                <input type="password" class="form-control" name="conf" id="conf" placeholder="Confirm Password" />
+            </div>
+
+            <div class="d-grid">
+                <button class="sign btn btn-info d-flex justify-content-center align-items-center" type="submit">Signup
+                    Now</button>
+                <p class="text-center mt-3">
+                    Already Have an Account? <a href="index.html">Login Here</a>
+                </p>
+            </div>
+        </form>
+    </div>
+
+    <!-- bootstrap & popper js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

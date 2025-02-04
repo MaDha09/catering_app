@@ -1,0 +1,154 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(to bottom, #a2f5d0, #41e08f) no-repeat fixed;
+  background-size: cover;
+}
+
+.navbar {
+  height: 80px;
+  width: 100%;
+}
+
+.navbar .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: transparent;
+}
+
+.navbar .icons:hover {
+  background-color: black;
+  transition: 1s;
+}
+
+.navbar .icons .icon {
+
+  font-size: 40px;
+  /* Adjust size as needed */
+
+}
+
+.navbar .icons .icon i{
+  color: grey;
+}
+.cate{
+  text-align: center;
+  font-size: 35px;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+.categories{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.cat{
+  width: 100%;
+  height: 200px;
+  background-color:transparent;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.gor1{
+  background: url('../assets/imgs/pasta.jpeg') no-repeat center center;
+  background-size: cover;
+  height: 90%;
+  width: 45%;
+  margin-left: 3%;
+  margin-top: 2%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+}
+.gor2{
+  background: url('../assets/imgs/noodles.jpg') no-repeat center center;
+  background-size: cover;
+  height: 90%;
+  width: 45%;
+  margin-right: 3%;
+  margin-top: 2%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+}
+.gor3{
+  background: url('../assets/imgs/hamburger.jpg') no-repeat center center;
+  background-size: cover;
+  height: 90%;
+  width: 45%;
+  margin-left: 3%;
+  margin-top: 2%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+}
+.gor4{
+  background: url('../assets/imgs/beef.jpg') no-repeat center center;
+  background-size: cover;
+  height: 90%;
+  width: 45%;
+  margin-right: 3%;
+  margin-top: 2%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+}
+
+.gor5{
+  background: url('../assets/imgs/dessert.jpg') no-repeat center center;
+  background-size: cover;
+  height: 90%;
+  width: 45%;
+  margin-left: 3%;
+  margin-top: 2%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+}
+.gor6{
+  background: url('../assets/imgs/vegan.jpg') no-repeat center center;
+  background-size: cover;
+  height: 90%;
+  width: 45%;
+  margin-right: 3%;
+  margin-top: 2%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+}
+
+
+.btn1{
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5) !important; /* White with 50% opacity */
+  text-decoration: none;
+  font-size: 25px !important;
+  letter-spacing: 2px !important;
+  color: black !important;
+  font-weight: 800 !important;
+}
+
+.btn2{
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5) !important; /* White with 50% opacity */
+  text-decoration: none;
+  font-size: 25px !important;
+  letter-spacing: 2px !important;
+  color: black !important;
+  font-weight: 800 !important;
+}

@@ -1,0 +1,78 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(174, 77, 152);
+}
+
+.navbar {
+    background-color: rgb(240, 87, 202);
+    height: 80px;
+
+}
+
+.button {
+    margin-top: 50px;
+    position: absolute;
+    background-image: url(../assets/imgs/arrow.png);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.button1 {
+    margin-top: -55px;
+    position: absolute;
+    background-image: url(../assets/imgs/log.png);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.sign {
+    background-color: rgb(215, 56, 173);
+}
+
+.nav {
+    margin-top: -10px;
+}
+
+.rec1 {
+    position: absolute;
+    background-image: url(../assets/imgs/fd1.jpg);
+    background-size: cover;
+    height: 180px;
+    width: 300px;
+    margin-top: 200px;
+    margin-left: 40px;
+    border-radius: 15px;
+}
+
+.cook1 {
+    position: absolute;
+    margin-top: -80px;
+    text-align: center;
+}
+
+.fs-1 {
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.fs-2 {
+    font-weight: 700;
+
+}
+
+.cook2 {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 20px;
+}
+
+.par {
+    line-height: 10px;
+}

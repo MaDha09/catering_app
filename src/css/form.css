@@ -1,0 +1,110 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: linear-gradient(to bottom, #a2f5d0, #41e08f); /* Lighter to darker green */
+    /* Apply background color to the entire body */
+    box-sizing: border-box;
+    /* Ensure padding and border are included in the element's total width and height */
+}
+
+.logo {
+    background-image: url(../assets/imgs/samson.png);
+    background-size: cover;
+    height: 15vw;
+    width: 15vw;
+    margin-top: 20px;
+}
+
+.app {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.app h1 {
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+
+.top .navbar a {
+    letter-spacing: 2px;
+}
+
+.form {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+}
+.cater{
+    color: black;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to bottom, #a2f5d0, #41e08f); /* Lighter to darker green */
+    /* Ensure the container has the same background color */
+    min-height: calc(100vh - 56px);
+    /* Adjust based on the height of the navbar */
+    box-sizing: border-box;
+}
+
+
+.img-fluid {
+    width: 50%;
+    margin-top: 20px;
+}
+
+.t1 {
+    margin-top: 20px;
+}
+
+.navbar {
+    width: 100%;
+    background-color: transparent;
+    /* Navbar with a different background color */
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.button {
+    margin-top: 20px;
+    background-image: url(../assets/imgs/arrow.png);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+.sign {
+
+    margin-top: 10px;
+}
+
+.user_form {
+    max-width: 100%;
+}
+
+.input-group {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .form {
+        width: 60%;
+    }
+}

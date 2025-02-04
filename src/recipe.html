@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Awesome Capacitor App</title>
+    <meta name="viewport"
+        content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+
+    <script nomodule
+        src="https://unpkg.com/@ionic/pwa-elements@latest/dist/ionicpwaelements/ionicpwaelements.js"></script>
+
+    <link rel="icon" type="image/x-icon" href="./assets/icon/favicon.ico" />
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="stylesheet" href="./css/recipe.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+
+    <script type="module" src="./js/auth/recipe.js"></script>
+    <script type="module" src="./js/main.js"></script>
+
+    <meta name="theme-color" content="#31d53d" />
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark fixed-top mb-5">
+        <div class="container-fluid justify-content-start">
+            <a class="button navbar-brand" href="profile.html"></a>
+        </div>
+        <div class="title1 container-fluid justify-content-center col-8">
+            <a class="nav navbar-brand fs-3 text-center" href="#">Homemade Tales</a>
+        </div>
+        <div class="container-fluid justify-content-end">
+            <a class="button1 navbar-brand" href="login.html"></a>
+        </div>
+    </nav>
+
+    <div class="title text-center mb-3">
+        <h2>Add Recipe</h2>
+    </div>
+
+    <div class="gallon">
+        <form class="user_recipe" id="user_recipe">
+            <div class="container col-10">
+                <div class="input-group mb-3">
+                    <span class="input-group-text"><i style='font-size:24px' class='fas'>&#xf7fb;</i></span>
+                    <input type="text" class="form-control" placeholder="Recipe Name" name="rec_name" id="rec_name" />
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text"><i class="fa fa-user"></i></span>
+                    <input type="text" class="form-control" placeholder="User Name" name="user_name" id="user_name" />
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text"><i style='font-size:24px' class='fas'>&#xf133;</i></span>
+                    <input type="date" class="form-control" placeholder="Date :" name="date_cre" id="date_cre" />
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text"><i style='font-size:24px' class='fas'>&#xf805;</i></span>
+                    <select name="categ" id="category" class="form-control">
+                        <option value="">Category</option>
+                        <option value="main dish">Main Dish</option>
+                        <option value="dessert">Dessert</option>
+                        <option value="appetizer">Appetizer</option>
+                    </select>
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group mb-3">
+                        <input type="file" class="btn btn-primary" id="imageInput">
+                    </div>
+                </div>
+                <label class="label">Ingredients</label>
+                <div class="input-group mb-3">
+                    <textarea name="ingredients" id="ingredients" class="textbox form-control"></textarea>
+                </div>
+                <label class="label">Instructions</label>
+                <div class="input-group mb-3">
+                    <textarea name="instruction" id="instruction" class="textbox form-control"></textarea>
+                </div>
+
+                <div class="d-grid">
+                    <button class="sign btn btn-primary d-flex justify-content-center align-items-center mb-3"
+                        type="submit">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div id="notification" class="alert alert-danger d-none"></div> <!-- Notification element -->
+
+    <!-- bootstrap & popper js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@latest/dist/supabase.js"></script>
+
+</body>
+
+</html>

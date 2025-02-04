@@ -1,0 +1,64 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to bottom, #a2f5d0, #41e08f) no-repeat fixed;
+    background-size: cover;
+}
+
+.container {
+    background-color: transparent !important;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container h1 {
+    padding-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.navbar {
+    height: 80px;
+    width: 100%;
+
+}
+
+.navbar .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar .icons:hover {
+    background-color: black;
+    transition: 1s;
+}
+
+.navbar .icons .icon {
+
+    font-size: 30px;
+    /* Adjust size as needed */
+
+}
+
+.navbar .icons .icon i{
+    color: grey;
+  }
+.card {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.card h2 {
+    font-weight: 400;
+    letter-spacing: 2px;
+}
